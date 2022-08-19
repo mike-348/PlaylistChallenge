@@ -9,30 +9,6 @@ public class Music {
     }
 
     public Integer selection(Integer startIndex, String selection) {
-//        return null;
-
-        // the plan:
-        // loop through entire array until you find the selection at index
-        // calculate distance from index to
-        // calculate distance from index to end
-        // return whichever is smaller
-
-//        int skipsBack;
-//        int skipsFwd;
-//
-//        for (int i = 0; i < playList.length; i++) {
-//            if (playList[i].equals(selection)) {
-//                int selectionIndex = i;
-//                if (selectionIndex < startIndex) {
-//                    skipsBack = startIndex - selectionIndex;
-//                } else if (selectionIndex > startIndex) {
-//                    skipsFwd = Math.abs(startIndex - selectionIndex);
-//                }
-//            }
-//        }
-//        if (skipsFwd < skipsBack) {
-//            return skipsFwd;
-//        } else return skipsBack;
 
 
         int fwdCount = 0;
